@@ -6,32 +6,32 @@ import { useState } from "react"
 const photos = [
   {
     id: 1,
-    url: "/friends-birthday-party.png",
+    url: "/IMG_0405.jpg",
     caption: "Celebrating with friends",
   },
   {
     id: 2,
-    url: "/birthday-cake-candles.png",
+    url: "/IMG_0411.JPG",
     caption: "Making a wish",
   },
   {
     id: 3,
-    url: "/festive-birthday-decorations.png",
+    url: "/IMG_1152.jpg",
     caption: "Party vibes",
   },
   {
     id: 4,
-    url: "/happy-birthday-portrait.jpg",
+    url: "/IMG_7329.JPG",
     caption: "Special moments",
   },
   {
     id: 5,
-    url: "/birthday-gifts-and-presents.jpg",
+    url: "/IMG_9793.jpeg",
     caption: "Gifts and surprises",
   },
   {
     id: 6,
-    url: "/birthday-celebration-outdoors.jpg",
+    url: "/ISIMG-677279.jpeg",
     caption: "Outdoor adventures",
   },
 ]
@@ -68,7 +68,7 @@ export function PhotoGallery() {
               <div className="aspect-square relative overflow-hidden bg-muted">
                 <img
                   src={photo.url || "/placeholder.svg"}
-                  alt={photo.caption}
+                 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 
@@ -76,7 +76,7 @@ export function PhotoGallery() {
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-0 left-0 right-0 p-4">
                     <p className="text-primary-foreground font-medium text-sm sm:text-base">
-                      {photo.caption}
+             
                     </p>
                   </div>
                 </div>

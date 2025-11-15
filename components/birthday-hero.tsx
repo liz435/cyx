@@ -37,7 +37,7 @@ export function BirthdayHero() {
         <h1 className="font-sans text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-balance leading-tight">
           <span className="block text-foreground">Happy Birthday!</span>
           <span className="block bg-clip-text text-transparent bg-[linear-gradient(135deg,_var(--primary)_0%,_var(--accent)_100%)]">
-            Celebrating 26
+            Celebrating 26!!!
           </span>
         </h1>
 
