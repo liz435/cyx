@@ -44,11 +44,8 @@ export function PhotoGallery() {
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-12 space-y-3">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-balance">
-            Memory Lane
-          </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A collection of wonderful moments from over the years
+            A collection of moments from over the years
           </p>
         </div>
 
@@ -63,13 +60,15 @@ export function PhotoGallery() {
                 animationDelay: `${index * 0.1}s`,
                 animation: "fadeIn 0.6s ease-out forwards",
                 opacity: 0,
+       
+
               }}
             >
-              <div className="aspect-square relative overflow-hidden bg-muted">
+              <div className="aspect-square relative  overflow-hidden">
                 <img
                   src={photo.url || "/placeholder.svg"}
                  
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full p-2 rounded-xl object-cover transition-transform duration-500 group-hover:scale-102"
                 />
                 
                 {/* Overlay */}
