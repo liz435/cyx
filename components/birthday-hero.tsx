@@ -49,14 +49,6 @@ export function BirthdayHero() {
         </div>
 
         {/* Birthday info */}
-        <div className="space-y-2">
-          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-medium">
-            Born in 1999
-          </p>
-          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            {"Another year of amazing memories, growth, and adventures. Here's to celebrating you!"}
-          </p>
-        </div>
       </div>
 
       {/* Scroll indicator */}
